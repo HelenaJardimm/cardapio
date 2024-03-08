@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffff url("paes.jpg");
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 1px solid #e7e1e1;
+    background-color: rgba(245, 171, 74, 0.4);
+    height: 400px;
+}
+
+.flex {
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 650px;
+}
+.conteudo{
+    text-align: justify;
+}
+.pinga {
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.cabecalho {
+    /* background-color: #fff0c9; */
+    background-image: url('padariaa.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 95px;
+}
+.rodape{
+     background-color: rgb(243, 166, 64);
+     text-align: center;
+     height: 120px;
+     text-align: center;
+     font-size: 20px;
+}
